@@ -658,7 +658,4 @@ if __name__ == "__main__":
     # Evaluate
     evaluate_model_performance(model, test_loader, le)
     
-    # Example prediction
-    test_file = "C:/Users/malik/Downloads/GPNcTF/archive12/Actor_01/03-01-01-01-01-01-01.wav"
-    emotion = predict_emotion(model, test_file, scaler, le)
-    print(f"Predicted Emotion: {emotion}")
+ 
